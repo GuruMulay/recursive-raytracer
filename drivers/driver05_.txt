@@ -1,0 +1,12 @@
+eye 75 75 75
+look 0 0 0
+up 0 1 0
+d 30
+bounds -2 -2 2 2
+res 512 512
+ambient 0.1 0.1 0.1
+light 100 0 0 0 0.5 0.5 0.5
+light 0 100 0 0 0.5 0.5 0.5
+light 0 0 100 0 0.5 0.5 0.5
+model 1.0 0.0 0.0 -90 7 0 0 0 sphere.obj
+

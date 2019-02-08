@@ -57,5 +57,5 @@ There could be zero or more spheres. The first three values are the x, y, and z 
 
 #### This program only supports outputing .ppm images. 
 
-#### [Read more here](http://www.cs.colostate.edu/~cs410/yr2018fa/home_assignments.php)
+#### [Read more here.](http://www.cs.colostate.edu/~cs410/yr2018fa/home_assignments.php)
 

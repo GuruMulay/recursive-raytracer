@@ -9,6 +9,39 @@
 #### Execute: 
 	./raytracer ./path/to/driverXX.txt ./path/to/diverXX.ppm
 	
+
+<p align="center">
+  <img src="https://gurumulay.github.io/images/cg/checker1.png?raw=true" alt=""/>
+</p>
+
+
+<p align="center">
+  <img src="https://gurumulay.github.io/images/cg/masterwork0.png?raw=true" alt=""/>
+</p>
+
+
+<p align="center">
+  <img src="https://gurumulay.github.io/images/cg/sphere3.png?raw=true" alt=""/>
+</p>
+
+
+<p align="center">
+  <img src="https://gurumulay.github.io/images/cg/s5.png?raw=true" alt=""/>
+</p>
+
+
+
+<video width="730" autoplay loop="loop" controls="false">
+  <source src="/images/vision/raytracer/dr2_1.mp4" type="video/mp4">
+  <p>Unfortunately, your browser doesn't support HTML5 embedded videos. Here is
+    a <a href="https://gurumulay.github.io/images/vision/raytracer/dr2_1.mp4">link to the video</a> instead.</p>
+</video>
+
+
+![]()
+
+
+
 #### Format of driverXX.txt:
 
 The first three lines are the location of the focal point (i.e., the eye point), the look at point, and the up vector. Then comes the focal length, i.e., the distance from the focal point to the image plane (near clipping plane). The 'bounds' values indicate the minimum and maximum extend of the bounded image rectangle on the infinite image plane in the camera horizontal and vertical directions respectively. Then the resolution values separately indicate the pixel sampling resolution across the horizontal and vertical dimensions of the bounded rectangle. One feature of this specification format is that you can generate intermediate cameras with low resolution, say 8 by 8 or even 4 by 4, when developing and debugging code. This speeds development considerably. The recursion depth is specified by the field "recursionLevel 3".
@@ -25,3 +58,4 @@ There could be zero or more spheres. The first three values are the x, y, and z 
 #### This program only supports outputing .ppm images. 
 
 #### [Read more here](http://www.cs.colostate.edu/~cs410/yr2018fa/home_assignments.php)
+
